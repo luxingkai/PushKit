@@ -15,6 +15,7 @@
 		1148887625848EB900939DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148887525848EB900939DEC /* main.m */; };
 		1148888025848EB900939DEC /* PushKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148887F25848EB900939DEC /* PushKitTests.m */; };
 		1148888B25848EB900939DEC /* PushKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148888A25848EB900939DEC /* PushKitUITests.m */; };
+		1148889A2584907300939DEC /* PushKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114888992584907300939DEC /* PushKitController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1148888625848EB900939DEC /* PushKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148888A25848EB900939DEC /* PushKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKitUITests.m; sourceTree = "<group>"; };
 		1148888C25848EB900939DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114888982584907300939DEC /* PushKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushKitController.h; sourceTree = "<group>"; };
+		114888992584907300939DEC /* PushKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKitController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1148886425848EB800939DEC /* AppDelegate.m */,
 				1148886925848EB800939DEC /* ViewController.h */,
 				1148886A25848EB800939DEC /* ViewController.m */,
+				114888982584907300939DEC /* PushKitController.h */,
+				114888992584907300939DEC /* PushKitController.m */,
 				1148886C25848EB800939DEC /* Main.storyboard */,
 				1148886F25848EB900939DEC /* Assets.xcassets */,
 				1148887125848EB900939DEC /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				1148886B25848EB800939DEC /* ViewController.m in Sources */,
 				1148886525848EB800939DEC /* AppDelegate.m in Sources */,
+				1148889A2584907300939DEC /* PushKitController.m in Sources */,
 				1148887625848EB900939DEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
