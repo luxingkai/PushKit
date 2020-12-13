@@ -16,6 +16,21 @@
 		1148888025848EB900939DEC /* PushKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148887F25848EB900939DEC /* PushKitTests.m */; };
 		1148888B25848EB900939DEC /* PushKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148888A25848EB900939DEC /* PushKitUITests.m */; };
 		1148889A2584907300939DEC /* PushKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114888992584907300939DEC /* PushKitController.m */; };
+		11581C112585ECBB00AF4CD8 /* UserNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C102585ECBB00AF4CD8 /* UserNotifications.m */; };
+		11581C162585EF5D00AF4CD8 /* Essentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C152585EF5D00AF4CD8 /* Essentials.m */; };
+		11581C1A2585F11900AF4CD8 /* original-1582843671.png in Resources */ = {isa = PBXBuildFile; fileRef = 11581C192585F11900AF4CD8 /* original-1582843671.png */; };
+		11581C1C2585F13D00AF4CD8 /* original-1584047737.png in Resources */ = {isa = PBXBuildFile; fileRef = 11581C1B2585F13D00AF4CD8 /* original-1584047737.png */; };
+		11581C1E2585F14B00AF4CD8 /* 58245c65-723d-4785-84e1-11d7534c6e11.png in Resources */ = {isa = PBXBuildFile; fileRef = 11581C1D2585F14B00AF4CD8 /* 58245c65-723d-4785-84e1-11d7534c6e11.png */; };
+		11581C212585F23200AF4CD8 /* NotificationManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C202585F23200AF4CD8 /* NotificationManagement.m */; };
+		11581C242585F24200AF4CD8 /* RemoteNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C232585F24200AF4CD8 /* RemoteNotifications.m */; };
+		11581C272585F25400AF4CD8 /* NotificationRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C262585F25400AF4CD8 /* NotificationRequests.m */; };
+		11581C2A2585F27D00AF4CD8 /* NotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C292585F27D00AF4CD8 /* NotificationContent.m */; };
+		11581C2D2585F28700AF4CD8 /* Triggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C2C2585F28700AF4CD8 /* Triggers.m */; };
+		11581C302585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */; };
+		11581C332585F2BF00AF4CD8 /* NotificationResponses.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C322585F2BF00AF4CD8 /* NotificationResponses.m */; };
+		11581C362585F39D00AF4CD8 /* Entitlements.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C352585F39D00AF4CD8 /* Entitlements.m */; };
+		118453682586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png in Resources */ = {isa = PBXBuildFile; fileRef = 118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */; };
+		1184536A25861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1184536925861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,31 @@
 		1148888C25848EB900939DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		114888982584907300939DEC /* PushKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushKitController.h; sourceTree = "<group>"; };
 		114888992584907300939DEC /* PushKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKitController.m; sourceTree = "<group>"; };
+		11581C0F2585ECBB00AF4CD8 /* UserNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserNotifications.h; sourceTree = "<group>"; };
+		11581C102585ECBB00AF4CD8 /* UserNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserNotifications.m; sourceTree = "<group>"; };
+		11581C142585EF5D00AF4CD8 /* Essentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Essentials.h; sourceTree = "<group>"; };
+		11581C152585EF5D00AF4CD8 /* Essentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Essentials.m; sourceTree = "<group>"; };
+		11581C192585F11900AF4CD8 /* original-1582843671.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "original-1582843671.png"; sourceTree = "<group>"; };
+		11581C1B2585F13D00AF4CD8 /* original-1584047737.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "original-1584047737.png"; sourceTree = "<group>"; };
+		11581C1D2585F14B00AF4CD8 /* 58245c65-723d-4785-84e1-11d7534c6e11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58245c65-723d-4785-84e1-11d7534c6e11.png"; sourceTree = "<group>"; };
+		11581C1F2585F23200AF4CD8 /* NotificationManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationManagement.h; sourceTree = "<group>"; };
+		11581C202585F23200AF4CD8 /* NotificationManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationManagement.m; sourceTree = "<group>"; };
+		11581C222585F24200AF4CD8 /* RemoteNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteNotifications.h; sourceTree = "<group>"; };
+		11581C232585F24200AF4CD8 /* RemoteNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteNotifications.m; sourceTree = "<group>"; };
+		11581C252585F25400AF4CD8 /* NotificationRequests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationRequests.h; sourceTree = "<group>"; };
+		11581C262585F25400AF4CD8 /* NotificationRequests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationRequests.m; sourceTree = "<group>"; };
+		11581C282585F27D00AF4CD8 /* NotificationContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationContent.h; sourceTree = "<group>"; };
+		11581C292585F27D00AF4CD8 /* NotificationContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationContent.m; sourceTree = "<group>"; };
+		11581C2B2585F28700AF4CD8 /* Triggers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triggers.h; sourceTree = "<group>"; };
+		11581C2C2585F28700AF4CD8 /* Triggers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triggers.m; sourceTree = "<group>"; };
+		11581C2E2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCategoriesAndUserActions.h; sourceTree = "<group>"; };
+		11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCategoriesAndUserActions.m; sourceTree = "<group>"; };
+		11581C312585F2BF00AF4CD8 /* NotificationResponses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationResponses.h; sourceTree = "<group>"; };
+		11581C322585F2BF00AF4CD8 /* NotificationResponses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationResponses.m; sourceTree = "<group>"; };
+		11581C342585F39D00AF4CD8 /* Entitlements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entitlements.h; sourceTree = "<group>"; };
+		11581C352585F39D00AF4CD8 /* Entitlements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entitlements.m; sourceTree = "<group>"; };
+		118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png"; sourceTree = "<group>"; };
+		1184536925861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +144,20 @@
 		1148886225848EB800939DEC /* PushKit */ = {
 			isa = PBXGroup;
 			children = (
+				11581C0E2585EC3700AF4CD8 /* UserNotifications */,
+				11581C0D2585EC1B00AF4CD8 /* PushKit */,
 				1148886325848EB800939DEC /* AppDelegate.h */,
 				1148886425848EB800939DEC /* AppDelegate.m */,
 				1148886925848EB800939DEC /* ViewController.h */,
 				1148886A25848EB800939DEC /* ViewController.m */,
-				114888982584907300939DEC /* PushKitController.h */,
-				114888992584907300939DEC /* PushKitController.m */,
 				1148886C25848EB800939DEC /* Main.storyboard */,
 				1148886F25848EB900939DEC /* Assets.xcassets */,
 				1148887125848EB900939DEC /* LaunchScreen.storyboard */,
+				1184536925861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png */,
+				118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */,
+				11581C1B2585F13D00AF4CD8 /* original-1584047737.png */,
+				11581C192585F11900AF4CD8 /* original-1582843671.png */,
+				11581C1D2585F14B00AF4CD8 /* 58245c65-723d-4785-84e1-11d7534c6e11.png */,
 				1148887425848EB900939DEC /* Info.plist */,
 				1148887525848EB900939DEC /* main.m */,
 			);
@@ -135,6 +180,42 @@
 				1148888C25848EB900939DEC /* Info.plist */,
 			);
 			path = PushKitUITests;
+			sourceTree = "<group>";
+		};
+		11581C0D2585EC1B00AF4CD8 /* PushKit */ = {
+			isa = PBXGroup;
+			children = (
+				114888982584907300939DEC /* PushKitController.h */,
+				114888992584907300939DEC /* PushKitController.m */,
+			);
+			path = PushKit;
+			sourceTree = "<group>";
+		};
+		11581C0E2585EC3700AF4CD8 /* UserNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				11581C0F2585ECBB00AF4CD8 /* UserNotifications.h */,
+				11581C102585ECBB00AF4CD8 /* UserNotifications.m */,
+				11581C142585EF5D00AF4CD8 /* Essentials.h */,
+				11581C152585EF5D00AF4CD8 /* Essentials.m */,
+				11581C1F2585F23200AF4CD8 /* NotificationManagement.h */,
+				11581C202585F23200AF4CD8 /* NotificationManagement.m */,
+				11581C222585F24200AF4CD8 /* RemoteNotifications.h */,
+				11581C232585F24200AF4CD8 /* RemoteNotifications.m */,
+				11581C252585F25400AF4CD8 /* NotificationRequests.h */,
+				11581C262585F25400AF4CD8 /* NotificationRequests.m */,
+				11581C282585F27D00AF4CD8 /* NotificationContent.h */,
+				11581C292585F27D00AF4CD8 /* NotificationContent.m */,
+				11581C2B2585F28700AF4CD8 /* Triggers.h */,
+				11581C2C2585F28700AF4CD8 /* Triggers.m */,
+				11581C2E2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.h */,
+				11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */,
+				11581C312585F2BF00AF4CD8 /* NotificationResponses.h */,
+				11581C322585F2BF00AF4CD8 /* NotificationResponses.m */,
+				11581C342585F39D00AF4CD8 /* Entitlements.h */,
+				11581C352585F39D00AF4CD8 /* Entitlements.m */,
+			);
+			path = UserNotifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +321,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11581C1E2585F14B00AF4CD8 /* 58245c65-723d-4785-84e1-11d7534c6e11.png in Resources */,
 				1148887325848EB900939DEC /* LaunchScreen.storyboard in Resources */,
+				11581C1C2585F13D00AF4CD8 /* original-1584047737.png in Resources */,
 				1148887025848EB900939DEC /* Assets.xcassets in Resources */,
+				118453682586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png in Resources */,
 				1148886E25848EB800939DEC /* Main.storyboard in Resources */,
+				11581C1A2585F11900AF4CD8 /* original-1582843671.png in Resources */,
+				1184536A25861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11581C332585F2BF00AF4CD8 /* NotificationResponses.m in Sources */,
+				11581C2A2585F27D00AF4CD8 /* NotificationContent.m in Sources */,
+				11581C302585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m in Sources */,
+				11581C362585F39D00AF4CD8 /* Entitlements.m in Sources */,
+				11581C162585EF5D00AF4CD8 /* Essentials.m in Sources */,
 				1148886B25848EB800939DEC /* ViewController.m in Sources */,
 				1148886525848EB800939DEC /* AppDelegate.m in Sources */,
+				11581C112585ECBB00AF4CD8 /* UserNotifications.m in Sources */,
 				1148889A2584907300939DEC /* PushKitController.m in Sources */,
 				1148887625848EB900939DEC /* main.m in Sources */,
+				11581C272585F25400AF4CD8 /* NotificationRequests.m in Sources */,
+				11581C242585F24200AF4CD8 /* RemoteNotifications.m in Sources */,
+				11581C2D2585F28700AF4CD8 /* Triggers.m in Sources */,
+				11581C212585F23200AF4CD8 /* NotificationManagement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

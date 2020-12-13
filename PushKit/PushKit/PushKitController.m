@@ -456,7 +456,6 @@
     /**
      An object that contains information about a received
      PushKit notification.
-
      */
     
 }
