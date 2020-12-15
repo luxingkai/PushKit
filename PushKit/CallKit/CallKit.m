@@ -265,10 +265,46 @@
      }
      @end
      ===============================================================
-
-     
      */
+    
+    
+#pragma mark -- Essentials
+    
+    /*
+     Call-related actions are routed through your provider and
+     its delegate, which you use to communicate with your
+     service.
+     */
+    
+    /**
+     CXProvider
+     
+     An object that represents a telephony provider.
+     
+     A CXProvider object is responsible for reporting out-of-band
+     notifications that occur to the system. A VoIP app should
+     create only one instance of CXProvider and store it for use
+     globally. A CXProvider object is initialized with a
+     CXProviderConfiguration object to specify the behavior and
+     capabilities of calls. Each provider can specify an object
+     conforming to the CXProviderDelegate protocol to responds
+     to events, such as the call starting, the call being put
+     on hold, or the provider's audio session being activated.
+     */
+    
+    
+    
 }
+
+#pragma mark --
+
+
+
+
+
+
+
+
 
 /*
 #pragma mark - Navigation

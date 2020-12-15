@@ -62,7 +62,7 @@
      for your app.
      */
     
-    UNNotificationSound
+//    UNNotificationSound
     
     
 }
