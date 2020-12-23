@@ -29,6 +29,8 @@
 		11581C302585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */; };
 		11581C332585F2BF00AF4CD8 /* NotificationResponses.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C322585F2BF00AF4CD8 /* NotificationResponses.m */; };
 		11581C362585F39D00AF4CD8 /* Entitlements.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C352585F39D00AF4CD8 /* Entitlements.m */; };
+		1164BDF22591A58B00A45775 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1164BDF12591A58B00A45775 /* UserNotifications.framework */; };
+		1164BDF42591A59400A45775 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1164BDF32591A59400A45775 /* PushKit.framework */; };
 		118453682586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png in Resources */ = {isa = PBXBuildFile; fileRef = 118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */; };
 		1184536A25861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1184536925861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png */; };
 		11D197452587818100E7D40E /* CallKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D197442587818100E7D40E /* CallKit.m */; };
@@ -83,7 +85,7 @@
 		11581C222585F24200AF4CD8 /* RemoteNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteNotifications.h; sourceTree = "<group>"; };
 		11581C232585F24200AF4CD8 /* RemoteNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteNotifications.m; sourceTree = "<group>"; };
 		11581C252585F25400AF4CD8 /* NotificationRequests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationRequests.h; sourceTree = "<group>"; };
-		11581C262585F25400AF4CD8 /* NotificationRequests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationRequests.m; sourceTree = "<group>"; };
+		11581C262585F25400AF4CD8 /* NotificationRequests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationRequests.m; sourceTree = "<group>"; wrapsLines = 0; };
 		11581C282585F27D00AF4CD8 /* NotificationContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationContent.h; sourceTree = "<group>"; };
 		11581C292585F27D00AF4CD8 /* NotificationContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationContent.m; sourceTree = "<group>"; };
 		11581C2B2585F28700AF4CD8 /* Triggers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triggers.h; sourceTree = "<group>"; };
@@ -94,6 +96,17 @@
 		11581C322585F2BF00AF4CD8 /* NotificationResponses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationResponses.m; sourceTree = "<group>"; };
 		11581C342585F39D00AF4CD8 /* Entitlements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entitlements.h; sourceTree = "<group>"; };
 		11581C352585F39D00AF4CD8 /* Entitlements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entitlements.m; sourceTree = "<group>"; };
+		1160945025934C8C00C16D66 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
+		1160945125934C8C00C16D66 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1160945225934C9000C16D66 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		1160945325934C9100C16D66 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1160945425934C9600C16D66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		1160945525934C9600C16D66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1160945625934C9C00C16D66 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		1160945725934C9C00C16D66 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1164BDEF2591A0CB00A45775 /* PushKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushKit.entitlements; sourceTree = "<group>"; };
+		1164BDF12591A58B00A45775 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		1164BDF32591A59400A45775 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png"; sourceTree = "<group>"; };
 		1184536925861C31007AE510 /* f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f3327ebb-70be-4a12-9a76-b1a8badc0cd0.png"; sourceTree = "<group>"; };
 		11D197432587818100E7D40E /* CallKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallKit.h; sourceTree = "<group>"; };
@@ -106,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1164BDF42591A59400A45775 /* PushKit.framework in Frameworks */,
+				1164BDF22591A58B00A45775 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +148,7 @@
 				1148887E25848EB900939DEC /* PushKitTests */,
 				1148888925848EB900939DEC /* PushKitUITests */,
 				1148886125848EB800939DEC /* Products */,
+				1164BDF02591A58B00A45775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +165,7 @@
 		1148886225848EB800939DEC /* PushKit */ = {
 			isa = PBXGroup;
 			children = (
+				1164BDEF2591A0CB00A45775 /* PushKit.entitlements */,
 				11D197422587816700E7D40E /* CallKit */,
 				11581C0E2585EC3700AF4CD8 /* UserNotifications */,
 				11581C0D2585EC1B00AF4CD8 /* PushKit */,
@@ -225,6 +242,15 @@
 			path = UserNotifications;
 			sourceTree = "<group>";
 		};
+		1164BDF02591A58B00A45775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1164BDF32591A59400A45775 /* PushKit.framework */,
+				1164BDF12591A58B00A45775 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		11D197422587816700E7D40E /* CallKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +322,7 @@
 		1148885825848EB800939DEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = NO;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = tigerfly;
 				TargetAttributes = {
@@ -319,6 +346,10 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-AU",
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 1148885725848EB800939DEC;
 			productRefGroup = 1148886125848EB800939DEC /* Products */;
@@ -424,6 +455,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				1148886D25848EB800939DEC /* Base */,
+				1160945025934C8C00C16D66 /* en-AU */,
+				1160945225934C9000C16D66 /* zh-HK */,
+				1160945425934C9600C16D66 /* zh-Hans */,
+				1160945625934C9C00C16D66 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -432,6 +467,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				1148887225848EB900939DEC /* Base */,
+				1160945125934C8C00C16D66 /* en-AU */,
+				1160945325934C9100C16D66 /* zh-HK */,
+				1160945525934C9600C16D66 /* zh-Hans */,
+				1160945725934C9C00C16D66 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -443,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -501,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -553,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushKit/PushKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962BW6QCNQ;
 				INFOPLIST_FILE = PushKit/Info.plist;
@@ -570,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushKit/PushKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962BW6QCNQ;
 				INFOPLIST_FILE = PushKit/Info.plist;

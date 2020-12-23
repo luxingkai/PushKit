@@ -30,7 +30,7 @@
      can also tell you app to download information and update its
      interface. Notifications can display an alert, play a sound,
      or badge the app's icon.
-     file:///Users/tigerfly/Desktop/58245c65-723d-4785-84e1-11d7534c6e11.png
+     file:///Users/tigerfly/Desktop/PushKit/PushKit/58245c65-723d-4785-84e1-11d7534c6e11.png
      
      You can generate notifications locally from your app or
      remotely from a server that you manage. For local notifications,
