@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     
     
+    
 #pragma mark -- Setting Up a Remote Notification Server
 
     /**
@@ -72,18 +73,16 @@
      
      •  Write code to receive device tokens from instances of
         your app running on user devices, and to associate those
-        tokens with your users' accounts. See Registering Your App
-        with APNs.
+        tokens with your users' accounts. See https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns?language=objc.
      •  Determine when to send notifications to your users, and
-        write code to generate notification payloads. See Generating
-        a Remote Notification.
+        write code to generate notification payloads. See https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/generating_a_remote_notification?language=objc.
      •  Manage a connection to APNs using HTTP/2 and TLS.
-        See Sending Notification Requests to APNs.
+        See https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc.
      •  Write code to generate POST requests containing your payloads,
         and send those requests over your HTTP/2 connection. See
-        Sending Notification Requests to APNs.
+        https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc..
      •  For token-based authentication, regenerate your token
-        periodically. See Establishing a Token-Based Connection to APNs.
+        periodically. See https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns?language=objc.
      */
     
     /**
@@ -104,10 +103,10 @@
      disadvantages, so decide which technique is best suited for
      your company.
      
-     •  To set up token-based trust with APNs, see Establishing
-        a Token-Based Connection to APNs.
+     •  To set up token-based trust with APNs, see
+        https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns?language=objc.
      •  To set up certificate-based trust with APNs, see
-        Establishing a Certificate-Based Connection to APNs.
+        https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns?language=objc.
      
      */
     
@@ -123,6 +122,25 @@
         device become online later on.
      •  APNs can coalesce notifications with the same bundle ID.
      */
+    
+    
+    /**
+     Server Tasks
+     
+     Generating a Remote Notification
+     https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/generating_a_remote_notification?language=objc
+     
+     Sending Notification Requests to APNs
+     https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc
+     
+     Handling Notification Responses from APNs
+     https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/handling_notification_responses_from_apns?language=objc
+     
+     Pushing Background Updates to Your App
+     https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app?language=objc
+     */
+    
+    
     
     
 #pragma mark -- Registering Your App with APNs
@@ -368,6 +386,8 @@
      A notification with the text “test” appears on your destination
      device.
      */
+    
+    
     
     
     

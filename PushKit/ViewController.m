@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <UserNotifications/UserNotifications.h>
 
-@interface ViewController ()
+@interface ViewController ()<UNUserNotificationCenterDelegate>
 
 @end
 
@@ -20,10 +20,10 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = UIColor.whiteColor;
     
-    
     // 处理用户通知授权
     UNUserNotificationCenter *notificationCenter = [UNUserNotificationCenter currentNotificationCenter];
-    [notificationCenter requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionProvisional completionHandler:^(BOOL granted, NSError * _Nullable error) {
+    notificationCenter.delegate = self;
+    [notificationCenter requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionBadge | UNAuthorizationOptionSound completionHandler:^(BOOL granted, NSError * _Nullable error) {
         
         if (error) {
             //handle the error
@@ -32,16 +32,37 @@
         
         // Enable or disable features based on the authorization
         if (granted == YES) {
-            
+            [notificationCenter getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
+                if (settings.authorizationStatus != UNAuthorizationStatusAuthorized || settings.authorizationStatus != UNAuthorizationStatusProvisional) {
+                    return;
+                }
+                if (settings.alertSetting == UNNotificationSettingEnabled) {
+                    // Schedule an alert-only notification.
+                    
+                }else {
+                    // Schedule a notification with a badge and sound.
+                }
+            }];
         }
         
     }];
     
-    
-    
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center 
+       willPresentNotification:(UNNotification *)notification
+         withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
     
     
 }
 
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler {
+    
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+   openSettingsForNotification:(nullable UNNotification *)notification {
+    
+}
 
 @end

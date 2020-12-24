@@ -322,7 +322,6 @@
 		1148885825848EB800939DEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = NO;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = tigerfly;
 				TargetAttributes = {
