@@ -29,6 +29,7 @@
 		11581C302585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */; };
 		11581C332585F2BF00AF4CD8 /* NotificationResponses.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C322585F2BF00AF4CD8 /* NotificationResponses.m */; };
 		11581C362585F39D00AF4CD8 /* Entitlements.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581C352585F39D00AF4CD8 /* Entitlements.m */; };
+		11585A7E259733B600957818 /* NotificationServiceAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11585A7D259733B600957818 /* NotificationServiceAppExtension.m */; };
 		1164BDF22591A58B00A45775 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1164BDF12591A58B00A45775 /* UserNotifications.framework */; };
 		1164BDF42591A59400A45775 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1164BDF32591A59400A45775 /* PushKit.framework */; };
 		118453682586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png in Resources */ = {isa = PBXBuildFile; fileRef = 118453672586198E007AE510 /* 4ebaf4d8-031d-4eb5-b975-07373dfa6eb6.png */; };
@@ -96,6 +97,8 @@
 		11581C322585F2BF00AF4CD8 /* NotificationResponses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationResponses.m; sourceTree = "<group>"; };
 		11581C342585F39D00AF4CD8 /* Entitlements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entitlements.h; sourceTree = "<group>"; };
 		11581C352585F39D00AF4CD8 /* Entitlements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entitlements.m; sourceTree = "<group>"; };
+		11585A7C259733B600957818 /* NotificationServiceAppExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationServiceAppExtension.h; sourceTree = "<group>"; };
+		11585A7D259733B600957818 /* NotificationServiceAppExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationServiceAppExtension.m; sourceTree = "<group>"; };
 		1160945025934C8C00C16D66 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
 		1160945125934C8C00C16D66 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1160945225934C9000C16D66 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -236,6 +239,8 @@
 				11581C2F2585F2A900AF4CD8 /* NotificationCategoriesAndUserActions.m */,
 				11581C312585F2BF00AF4CD8 /* NotificationResponses.h */,
 				11581C322585F2BF00AF4CD8 /* NotificationResponses.m */,
+				11585A7C259733B600957818 /* NotificationServiceAppExtension.h */,
+				11585A7D259733B600957818 /* NotificationServiceAppExtension.m */,
 				11581C342585F39D00AF4CD8 /* Entitlements.h */,
 				11581C352585F39D00AF4CD8 /* Entitlements.m */,
 			);
@@ -406,6 +411,7 @@
 				11581C362585F39D00AF4CD8 /* Entitlements.m in Sources */,
 				11581C162585EF5D00AF4CD8 /* Essentials.m in Sources */,
 				1148886B25848EB800939DEC /* ViewController.m in Sources */,
+				11585A7E259733B600957818 /* NotificationServiceAppExtension.m in Sources */,
 				1148886525848EB800939DEC /* AppDelegate.m in Sources */,
 				11581C112585ECBB00AF4CD8 /* UserNotifications.m in Sources */,
 				1148889A2584907300939DEC /* PushKitController.m in Sources */,
